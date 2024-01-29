@@ -45,7 +45,8 @@ if __name__ == "__main__":
 
     sorting_param = int(input("Enter your choice (1/2/3): "))
     employee_sorter.sort_employees(sorting_param)
-    print("\nSorted Employee Data Will there be a merge conflict?:")
+    print("\nSorted Employee Data ()hopefully a merge conflict.:")
     employee_sorter.print_sorted_data()
 
-
+print("Hello! I am hoping for a merge conflict.")
+print("Done with the merge conflict.")
