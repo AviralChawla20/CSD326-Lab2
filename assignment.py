@@ -30,13 +30,13 @@ class EmployeeSortign:
 
 if __name__ == "__main__":
     employees_data = [
-        Employee("161E90", "Ramu", 35, 59000),
-        Employee("171E22", "Tejas", 30, 82100),
-        Employee("171G55", "Abhi", 25, 100000),
-        Employee("152K46", "Jaya", 32, 85000),
+        EmployeeTemplate("161E90", "Ramu", 35, 59000),
+        EmployeeTemplate("171E22", "Tejas", 30, 82100),
+        EmployeeTemplate("171G55", "Abhi", 25, 100000),
+        EmployeeTemplate("152K46", "Jaya", 32, 85000),
     ]
 
-    employee_sorter = EmployeeSorter(employees_data)
+    employee_sorter = EmployeeSortign(employees_data)
 
     print("Choose sorting parameter:")
     print("1. Age")
