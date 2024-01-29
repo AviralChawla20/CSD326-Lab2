@@ -14,11 +14,11 @@ class EmployeeSorter:
         self.employees = employees
 
     def sort_employees(self, key):
-        if key == 1:  # Sort by Age
+        if key == 1:
             self.employees.sort(key=lambda emp: emp.age)
-        elif key == 2:  # Sort by Name
+        elif key == 2:
             self.employees.sort(key=lambda emp: emp.name)
-        elif key == 3:  # Sort by Salary
+        elif key == 3:
             self.employees.sort(key=lambda emp: emp.salary)
         else:
             print("Invalid sorting parameter")
@@ -47,3 +47,5 @@ if __name__ == "__main__":
     employee_sorter.sort_employees(sorting_param)
     print("\nSorted Employee Data:")
     employee_sorter.print_sorted_data()
+
+
