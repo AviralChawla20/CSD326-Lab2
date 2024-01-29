@@ -1,4 +1,4 @@
-class Employee:
+class EmployeeTemplate:
     def __init__(self, emp_id, name, age, salary):
         self.emp_id = emp_id
         self.name = name
@@ -9,7 +9,7 @@ class Employee:
         return f"{self.emp_id} {self.name} {self.age} {self.salary}"
 
 
-class EmployeeSorter:
+class EmployeeSortign:
     def __init__(self, employees):
         self.employees = employees
 
